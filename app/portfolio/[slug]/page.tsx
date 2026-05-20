@@ -28,11 +28,11 @@ export default async function ProjectPage({ params }: Props) {
 
       <div className="space-y-8">
         <div>
-          <h1 className="text-5xl font-bold text-white">
+          <h1 className="text-5xl font-bold primary-text">
             {project.title}
           </h1>
 
-          <p className="mt-4 text-lg text-zinc-400">
+          <p className="mt-4 text-lg paragraph">
             {project.description}
           </p>
         </div>
@@ -41,7 +41,7 @@ export default async function ProjectPage({ params }: Props) {
           {project.technologies.map((tech) => (
             <span
               key={tech}
-              className="rounded-full bg-white/5 px-4 py-2 text-sm text-zinc-300"
+              className="chip"
             >
               {tech}
             </span>
@@ -53,7 +53,7 @@ export default async function ProjectPage({ params }: Props) {
             <a
               href={project.githubUrl}
               target="_blank"
-              className="rounded-xl bg-white px-5 py-3 text-black"
+              className="rounded-xl bg-black px-5 py-3 text-white"
             >
               GitHub
             </a>
@@ -63,7 +63,7 @@ export default async function ProjectPage({ params }: Props) {
             <a
               href={project.itchUrl}
               target="_blank"
-              className="rounded-xl border border-white/20 px-5 py-3 text-white"
+              className="rounded-xl border-black px-5 py-3 text-white bg-[#da2c49]"
             >
               itch.io
             </a>

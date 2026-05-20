@@ -33,7 +33,7 @@ export function ProjectCard({ project }: Props) {
             {project.technologies.map((tech) => (
               <span
                 key={tech}
-                className="rounded-full bg-black/80 px-3 py-1 text-xs text-zinc-300"
+                className="chip"
               >
                 {tech}
               </span>

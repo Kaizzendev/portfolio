@@ -8,6 +8,7 @@
   --paragraph-color: #4b5563;
   --card-color: white;
   --border-color: #024c3f;
+  --chip-background: #000000ce;
 }
 
 @theme inline {
@@ -44,5 +45,18 @@ body {
 }
 .border {
   border-color: var(--border-color);
+}
+.chip {
+  background: var(--chip-background);
+
+  border: 1px solid var(--border-color);
+
+  padding: 0.5rem 1rem;
+
+  border-radius: 9999px;
+
+  font-size: 0.875rem;
+
+  color: var(--background);
 }
 

@@ -12,7 +12,7 @@
             My goal is to create unique and memorable experiences that connect with players around the world.
             </p>
             <img src="/logo.png" alt="Logo Image" className="w-72 md:w-96 rounded-full object-cover shadow-lg transition hover:scale-105 duration-300" />
-          </div>
-        </section>
+        </div>
+      </section>
       );
   }
