@@ -12,7 +12,7 @@ export default function About() {
 
         <p className="paragraph mx-auto mt-6 max-w-2xl text-lg leading-relaxed">
           I'm currently open to opportunities in <span className="secondary-text">game development</span>,
-          Feel free to reach out through any of the platforms below.
+          feel free to reach out through any of the platforms below.
         </p>
       </div>
 

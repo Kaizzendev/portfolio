@@ -25,7 +25,7 @@ export function ProjectCard({ project }: Props) {
             </h3>
 
             <p className="mt-2 text-sm paragraph">
-              {project.description}
+              {project.shortDescription}
             </p>
           </div>
 

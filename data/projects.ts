@@ -6,9 +6,11 @@ export const projects: Project[] = [
     slug: "piko",
 
     description:
-      "A game made for the 2026 Game dev fireside jam. This game was done in under a week, In a team of two people, and I was responsible for the programming and game design. The game is a 2D platformer where you play as a small creature that can jump and throw mass. The game is set inside a notebook and filled with puzzles and obstacles.",
+      "A game made for the 2026 Game dev fireside jam. This game was done in under a week, In a team of two people, and I was responsible for the programming, art, sound effects and game design. The game is a 2D platformer where you play as a small creature that can jump and throw mass. The game is set inside a notebook and filled with puzzles and obstacles.",
 
-    image: "/piko.png",
+    shortDescription: "A 2D platformer game made for the 2026 Game dev fireside jam.",
+
+    image: "/Piko/Piko.png",
 
     technologies: ["Unity", "C#"],
 
@@ -28,7 +30,9 @@ export const projects: Project[] = [
     description:
       "A simple tank battle roguelike game made with Unity.",
 
-    image: "/vid1.gif",
+    shortDescription: "A simple tank battle roguelike game made with Unity.",
+
+    image: "/Tanks/Tanks.gif",
 
     technologies: ["Unity", "C#"],
 
@@ -48,7 +52,9 @@ export const projects: Project[] = [
     description:
       "An rts game where you control a faction and command your troops to conquer the tube system.",
 
-    image: "/testPlay.gif",
+    shortDescription: "An rts game where you control a faction and command your troops to conquer the tube system.",
+
+    image: "/Tube_Wars/Tube_Wars.gif",
 
     technologies: ["Unity", "C#"],
 
@@ -57,5 +63,68 @@ export const projects: Project[] = [
     featured: true,
 
     status: "Prototype",
+  },
+
+  {
+    title: "Minesweeper",
+    slug: "minesweeper",
+
+    description:
+      "A classic minesweeper game made for android implemented in Godot.",
+
+    shortDescription: "A classic minesweeper game made for android implemented in Godot.",
+
+    image: "/Minesweeper/minesweeper.png",
+
+    technologies: ["Godot", "GDScript"],
+
+    githubUrl: "https://github.com/Kaizzendev/minesweeper",
+
+    featured: true,
+
+    status: "Completed",
+  },
+
+  {
+    title: "Asteroids",
+    slug: "asteroids",
+
+    description:
+      "A classic asteroids game implemented in Godot.",
+
+    shortDescription: "A classic asteroids game implemented in Godot.",
+
+    image: "/Asteroids/Asteroids.gif",
+
+    technologies: ["Godot", "GDScript"],
+
+    githubUrl: "https://github.com/Kaizzendev/Asteroids",
+
+    itchUrl: "https://kaizzendev.itch.io/asteroidsplus",
+
+    featured: true,
+
+    status: "Completed",
+  },
+  {
+    title: "Metroidvania prototype",
+    slug: "metroidvania-prototype",
+
+    description:
+      "A metroidvania game I am working on for the metroidvania month 32 game jam.",
+
+    shortDescription: "A metroidvania game I am working on for the metroidvania month 32 game jam.",
+
+    image: "/Metroidvania/wip.jpg",
+
+    technologies: ["Unity", "C#"],
+
+    githubUrl: "https://github.com/Kaizzendev/https://github.com/Kaizzendev/Metroidvania-Month-32-game-jam-",
+
+    itchUrl: "",
+
+    featured: true,
+
+    status: "In Progress",
   },
 ];
