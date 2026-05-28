@@ -10,7 +10,7 @@ export const projects: Project[] = [
 
     shortDescription: "A 2D platformer game made for the 2026 Game dev fireside jam.",
 
-    image: "/piko/piko.png",
+    image: "/piko.png",
 
     technologies: ["Unity", "C#"],
 
@@ -32,7 +32,7 @@ export const projects: Project[] = [
 
     shortDescription: "A simple tank battle roguelike game made with Unity.",
 
-    image: "/tanks/tanks.gif",
+    image: "/tanks.gif",
 
     technologies: ["Unity", "C#"],
 
@@ -54,7 +54,7 @@ export const projects: Project[] = [
 
     shortDescription: "An rts game where you control a faction and command your troops to conquer the tube system.",
 
-    image: "/tube-wars/tube-wars.gif",
+    image: "/tube-wars.gif",
 
     technologies: ["Unity", "C#"],
 
@@ -74,7 +74,7 @@ export const projects: Project[] = [
 
     shortDescription: "A classic minesweeper game made for android implemented in Godot.",
 
-    image: "/minesweeper/minesweeper.png",
+    image: "/minesweeper.png",
 
     technologies: ["Godot", "GDScript"],
 
@@ -94,7 +94,7 @@ export const projects: Project[] = [
 
     shortDescription: "A classic asteroids game implemented in Godot.",
 
-    image: "/asteroids/asteroids.gif",
+    image: "/asteroids.gif",
 
     technologies: ["Godot", "GDScript"],
 
@@ -115,7 +115,7 @@ export const projects: Project[] = [
 
     shortDescription: "A metroidvania game I am working on for the metroidvania month 32 game jam.",
 
-    image: "/metroidvania/wip.jpg",
+    image: "/wip.jpg",
 
     technologies: ["Unity", "C#"],
 
