@@ -21,7 +21,7 @@ export default function About() {
         <a
           href="https://github.com/Kaizzendev"
           target="_blank"
-          className="group rounded-3xl border border-zinc-200 bg-white p-8 transition hover:-translate-y-1 hover:border-zinc-300 hover:shadow-lg"
+          className="group rounded-3xl border border-zinc-200 card p-8 transition hover:-translate-y-1 hover:border-zinc-300 hover:shadow-lg"
         >
           <p className="text-sm uppercase tracking-wide secondary-text">
             Development
@@ -43,7 +43,7 @@ export default function About() {
         <a
           href="https://www.linkedin.com/in/miguel-garc%C3%ADa-garc%C3%ADa-1a105420b/"
           target="_blank"
-          className="group rounded-3xl border border-zinc-200 bg-white p-8 transition hover:-translate-y-1 hover:border-zinc-300 hover:shadow-lg"
+          className="group rounded-3xl border border-zinc-200 card p-8 transition hover:-translate-y-1 hover:border-zinc-300 hover:shadow-lg"
         >
           <p className="text-sm uppercase tracking-wide secondary-text">
             Professional
@@ -65,7 +65,7 @@ export default function About() {
         <a
           href="https://kaizzendev.itch.io/"
           target="_blank"
-          className="group rounded-3xl border border-zinc-200 bg-white p-8 transition hover:-translate-y-1 hover:border-zinc-300 hover:shadow-lg"
+          className="group rounded-3xl border border-zinc-200 card p-8 transition hover:-translate-y-1 hover:border-zinc-300 hover:shadow-lg"
         >
           <p className="text-sm uppercase tracking-wide secondary-text">
             Games
