@@ -111,7 +111,7 @@ export const projects: Project[] = [
     slug: "metroidvania-prototype",
 
     description:
-      "A metroidvania game I am working on for the metroidvania month 32 game jam.",
+      "A metroidvania game I am working on.",
 
     shortDescription: "A metroidvania game I am working on.",
 

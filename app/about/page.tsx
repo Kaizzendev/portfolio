@@ -2,11 +2,7 @@ export default function About() {
     return (
  <section className="mx-auto max-w-5xl px-6 py-24">
       <div className="text-center">
-        <p className="primary-text text-sm font-medium tracking-widest uppercase">
-          Contact / About me 
-        </p>
-
-        <h2 className="mt-4 text-5xl font-bold">
+        <h2 className="text-5xl font-bold">
           Let's <span className="primary-text">build</span> something meaningful <span className="primary-text">together</span>.
         </h2>
 
