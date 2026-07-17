@@ -113,7 +113,7 @@ export const projects: Project[] = [
     description:
       "A metroidvania game I am working on for the metroidvania month 32 game jam.",
 
-    shortDescription: "A metroidvania game I am working on for the metroidvania month 32 game jam.",
+    shortDescription: "A metroidvania game I am working on.",
 
     image: "/wip.jpg",
 
