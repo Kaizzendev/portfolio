@@ -1,6 +1,47 @@
 import { Project } from "@/types/project";
 
 export const projects: Project[] = [
+
+  {
+    title: "Frenzy Tanks",
+    slug: "tanksv2",
+
+    description:
+      "A tank battle roguelike game where you build your tank and progress throughout a challenging procedural generated map made with Unity.",
+
+    shortDescription: "A tank battle roguelike game where you build your tank and progress throughout a challenging procedural generated map made with Unity.",
+
+    image: "/frenzy-tanks.png",
+
+    technologies: ["Unity", "C#"],
+
+    githubUrl: "https://github.com/Kaizzendev/Tanks/tree/develop",
+
+    featured: true,
+
+    status: "In Progress",
+  },
+
+  {
+    title: "Tanks API",
+    slug: "tanks-api",
+
+    description:
+      "A REST API made for the Frenzy Tanks game to store player data, login information, progress and leaderboard information.",
+
+    shortDescription: "A REST API made for the Frenzy Tanks game to store player data, login information, progress and leaderboard information.",
+
+    image: "/net-core-logo.svg",
+
+    technologies: [".Net core", "C#"],
+
+    githubUrl: "https://github.com/Kaizzendev/TanksAPI",
+
+    featured: true,
+
+    status: "Completed",
+  },
+
   {
     title: "Piko",
     slug: "piko",
@@ -28,9 +69,9 @@ export const projects: Project[] = [
     slug: "tanks",
 
     description:
-      "A simple tank battle roguelike game made with Unity.",
+      "A simple tank wave battle game made with Unity.",
 
-    shortDescription: "A simple tank battle roguelike game made with Unity.",
+    shortDescription: "A simple tank wave battle game made with Unity.",
 
     image: "/tanks.gif",
 
@@ -45,7 +86,7 @@ export const projects: Project[] = [
     status: "Prototype",
   },
 
-    {
+  {
     title: "Tube wars",
     slug: "tube-wars",
 
@@ -106,25 +147,24 @@ export const projects: Project[] = [
 
     status: "Completed",
   },
+
   {
-    title: "Metroidvania prototype",
-    slug: "metroidvania-prototype",
+    title: "Portfolio",
+    slug: "portfolio",
 
     description:
-      "A metroidvania game I am working on.",
+      "This website! My personal portfolio website made with Next.js and TailwindCSS.",
 
-    shortDescription: "A metroidvania game I am working on.",
+    shortDescription: "My personal portfolio website made with Next.js and TailwindCSS.",
 
-    image: "/wip.jpg",
+    image: "/logo.png",
 
-    technologies: ["Unity", "C#"],
+    technologies: ["Next.js", "TailwindCSS"],
 
-    githubUrl: "https://github.com/Kaizzendev/https://github.com/Kaizzendev/Metroidvania-Month-32-game-jam-",
-
-    itchUrl: "",
+    githubUrl: "https://github.com/Kaizzendev/Portfolio",
 
     featured: true,
 
-    status: "In Progress",
+    status: "Completed",
   },
 ];
