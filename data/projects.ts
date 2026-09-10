@@ -15,7 +15,7 @@ export const projects: Project[] = [
 
     technologies: ["Unity", "C#"],
 
-    githubUrl: "https://github.com/Kaizzendev/Tanks/tree/develop",
+    githubUrl: "https://github.com/Kaizzendev/Tanks",
 
     featured: true,
 
@@ -77,7 +77,7 @@ export const projects: Project[] = [
 
     technologies: ["Unity", "C#"],
 
-    githubUrl: "https://github.com/Kaizzendev/Tanks",
+    githubUrl: "https://github.com/Kaizzendev/Tanks/tree/legacy",
 
     itchUrl: "https://kaizzendev.itch.io/tanksdemo",
 
