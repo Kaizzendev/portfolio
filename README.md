@@ -1,36 +1,130 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Kaizzendev Portfolio
 
-## Getting Started
+Personal portfolio built with **Next.js** to showcase my projects, technical skills and experience as a **Gameplay Programmer and Software Engineer**.
 
-First, run the development server:
+🌐 **Live website:** [kaizzendev-portfolio.vercel.app](https://kaizzendev-portfolio.vercel.app)
+
+## ✨ Features
+
+* Responsive design
+* Project showcase
+* About me section
+* Skills and technologies
+* Experience and education
+* Contact information
+* Optimized for desktop and mobile
+* Modern UI built with Next.js
+
+## 🛠️ Tech Stack
+
+* **Next.js**
+* **React**
+* **TypeScript**
+* **Tailwind CSS**
+* **Vercel**
+
+## 📂 Projects
+
+The portfolio includes several of my personal and academic projects, with a focus on game development and software engineering.
+
+Some of the featured projects include:
+
+* 🎮 **Tanks** — Unity/C# tank roguelite project
+* 🌐 **TanksAPI** — `ASP.NET Core` REST API supporting the Tanks project
+* 🚀 **Asteroids** — Game developed with Godot
+* 💣 **Minesweeper** — Android game
+* 🎮 **Game Jam Projects** — Several small games developed during game jams
+
+You can find the source code for my projects on my [GitHub profile](https://github.com/Kaizzendev).
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have installed:
+
+* Node.js
+* npm
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Kaizzendev/kaizzendev-portfolio.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd kaizzendev-portfolio
+```
+
+Install the dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To create a production build:
 
-## Learn More
+```bash
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+To run the production build:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📁 Project Structure
 
-## Deploy on Vercel
+```text
+├── public/          # Static assets
+├── src/
+│   ├── app/         # Next.js application routes
+│   ├── components/  # Reusable React components
+│   └── ...
+├── package.json
+├── next.config.ts
+├── tsconfig.json
+└── README.md
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 👨‍💻 About Me
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+I'm a **Backe-end Developer and Gameplay Programmer** with a background in web development and software engineering.
+
+I'm currently pursuing a degree in **Video Game Design and Development Engineering**, focusing on gameplay programming, game systems, and interactive experiences.
+
+My main interests include:
+
+* Backend development (`ASP.NET Core`)
+* Gameplay programming
+* Game systems and mechanics
+* Unity & C#
+* Software architecture
+* Backend development
+* Game development
+
+## 📫 Contact
+
+Feel free to check out my portfolio and GitHub profile to learn more about my projects and experience.
+
+* 🌐 Portfolio: [kaizzendev-portfolio.vercel.app](https://kaizzendev-portfolio.vercel.app)
+* 💻 GitHub: [github.com/Kaizzendev](https://github.com/Kaizzendev)
+
+---
+
+Built with ❤️ using Next.js.

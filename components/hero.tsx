@@ -8,7 +8,7 @@
         </h1>
         <div className="my-10">
           <h1 className="text-xl font-bold text-center mt-6">
-            <span className="secondary-text">Gameplay Programmer | Software Engineer</span>
+            <span className="secondary-text">Gameplay Programmer | Back-end Developer</span>
           </h1>
           <h1 className="text-m font-bold text-center">
             <span className="paragraph italic">Building clean, maintainable gameplay systems with Unity and C#</span>
@@ -16,8 +16,10 @@
         </div>
         <div className="mt-16 flex flex-col md:flex-row items-center gap-28">
             <p className="text-lg paragraph text-center md:text-left max-w-2xl leading-relaxed">
-             Software Engineer with 3 years of professional experience, currently focused on Gameplay Programming. 
-             Passionate about designing gameplay systems that are clean, maintainable and fun to build.
+              <span className="secondary-text">Backend Developer & Gameplay Programmer</span> with 3 years of professional experience. 
+             Currently focused on  <span className="secondary-text">.NET, C#, and backend development, </span> 
+             while pursuing a degree in  <span className="secondary-text">Video Game Design and Development Engineering. </span> 
+             Passionate about building clean software and engaging gameplay systems.
             </p>
             <img src="/perfil.jpg" alt="Logo Image" className="w-52 md:w-76 rounded-full object-cover shadow-lg transition hover:scale-105 duration-300" />
         </div>
